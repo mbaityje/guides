@@ -1,4 +1,4 @@
-# Guide on how to be operative on siam-linuxXX
+# Guide on how to be operative on siam-linuxXX with ABCpy 0.5.2
 
 Note: first of all check if Python 3.6 is installed.
 
@@ -13,7 +13,9 @@ cd /local/dalmolma/
 ```
 
 This folder will contain two folders:
+
 - abcpy052: virtualenv
+
 - BitBucket: all the repositories needed to run the code
 
 We can initialize the virtualenv
@@ -54,7 +56,8 @@ mkdir BitBucket
 cd /local/dalmolma/BitBucket
 ```
 
-Clone the repositories:
+Clone the repositories. Note that we are not using ssh authentication.
+
 - **abcpy_extension**
 ```bash
 git clone https://dalmo1991@bitbucket.org/dalmo1991/abcpy_extension.git
@@ -84,8 +87,9 @@ git checkout OnServer
 
 ## 3. Compile the code
 
-Some code uses Fortran code interfaced to Python that has to be compiled. It is
-always better to have a look at the compile scripts before running them.
+Some code uses Fortran code interfaced to Python that has to be compiled.
+**It is always better to have a look at the compile scripts before running**
+**them**.
 
 ### abcpy_extension
 
@@ -112,6 +116,9 @@ bash compile.sh
 ```
 
 ## 4. Install the dalmo library
+
+The **dalmo** library contains some useful general purpose code derived from
+single applications.
 
 Move to the right folder
 ```bash
@@ -143,6 +150,12 @@ The file modelInfo.dat has to be modified in order to work. Change the path in
 the second line to
 ```bash
 "$(CASE_STUDIES)$" "/local/dalmolma/BitBucket"
+```
+
+The file can be opened using Nano (ctrl+x to exit, y to save the file)
+
+```bash
+nano modelInfo.dat
 ```
 
 Try running the script
