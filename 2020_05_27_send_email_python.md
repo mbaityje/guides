@@ -10,17 +10,17 @@ Source: <https://realpython.com/python-send-email/>
 2. Example of script that uses the account to send e-mails. No need
    to install libraries.
 
-   ```python
-   import smtplib, ssl
+```python
+import smtplib, ssl
 
-   port = 465
-   e-mail = 'notify.abcpy@gmail.com'
-   password = 'XXX'  # TODO
+port = 465
+e-mail = 'notify.abcpy@gmail.com'
+password = 'XXX'  # TODO
 
-   receiver = 'XXX@XXX'  # TODO
-   message = 'Test'
+receiver = 'XXX@XXX'  # TODO
+message = 'Test'
 
-   with smtplib.SMTP_SSL('smtp.gmail.com', port, context=context) as server:
-       server.login(e-mail, password)
-       server.sendmail(e-mail, receiver, message)
-   ```
+with smtplib.SMTP_SSL('smtp.gmail.com', port, context=context) as server:
+    server.login(e-mail, password)
+    server.sendmail(e-mail, receiver, message)
+```
