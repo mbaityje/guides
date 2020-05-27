@@ -52,7 +52,7 @@ pip install glmnet
 All the repo will be cloned in the folder BitBucket. Create the folder
 
 ```bash
-mkdir BitBucket
+mkdir /local/dalmolma/BitBucket
 cd /local/dalmolma/BitBucket
 ```
 
