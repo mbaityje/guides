@@ -1,5 +1,9 @@
 # How to connect to server with rsa key
 
+No more passwords!!
+
+Source: <https://linuxize.com/post/how-to-set-up-ssh-keys-on-ubuntu-1804/>
+
 ## Create the key on local machine
 
 This step has to be done only once. First check if you already have one.
