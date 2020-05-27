@@ -71,7 +71,7 @@ git clone https://dalmo1991@bitbucket.org/dalmo1991/sigcalthur.git
 - **superflexPython** (remember to change the capitalization)
 ```bash
 git clone https://dalmo1991@bitbucket.org/dalmo1991/superflexpython.git
-mv superflexpython/ superflexPython/
+mv /local/dalmolma/BitBucket/superflexpython/ /local/dalmolma/BitBucket/superflexPython/
 ```
 
 - **dalmo**
