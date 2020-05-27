@@ -28,7 +28,7 @@ Activate the virtualenv. The following step will be executed automatically
 from now on when starting the terminal (it is in the ~/.bashrc).
 
 ```bash
-source abcpy052/bin/activate
+source /local/dalmolma/abcpy052/bin/activate
 ```
 
 Install the packages needed. Note that the dependencies of abcpy have to be
