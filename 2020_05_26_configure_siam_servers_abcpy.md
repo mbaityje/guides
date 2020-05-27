@@ -149,7 +149,7 @@ cd /local/dalmolma/BitBucket/sigcalthur/Simulations/StocABC/And_01_T1/
 The file modelInfo.dat has to be modified in order to work. Change the path in
 the second line to
 ```bash
-"$(CASE_STUDIES)$" "/local/dalmolma/BitBucket"
+"$(CASE_STUDIES)$" "/local/dalmolma/BitBucket/"
 ```
 
 The file can be opened using Nano (ctrl+x to exit, y to save the file)
