@@ -14,13 +14,13 @@ Source: <https://realpython.com/python-send-email/>
 import smtplib, ssl
 
 port = 465
-e-mail = 'notify.abcpy@gmail.com'
+e_mail = 'notify.abcpy@gmail.com'
 password = 'XXX'  # TODO
 
 receiver = 'XXX@XXX'  # TODO
 message = 'Test'
 
 with smtplib.SMTP_SSL('smtp.gmail.com', port, context=context) as server:
-    server.login(e-mail, password)
-    server.sendmail(e-mail, receiver, message)
+    server.login(e_mail, password)
+    server.sendmail(e_mail, receiver, message)
 ```
