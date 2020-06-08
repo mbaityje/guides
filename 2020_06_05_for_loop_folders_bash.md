@@ -23,7 +23,7 @@ do
    cd $(echo $folder)
    file_py="NonConcomitant_${i}_T1.py"
    file_log="NonConcomitant_${i}_T1.log"
-   nohup python $(echo $file_py) > $(echo $file_log)
+   nohup python $(echo $file_py) > $(echo $file_log) &
    cd ..
 done
 ```
