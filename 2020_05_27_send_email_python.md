@@ -26,3 +26,7 @@ with smtplib.SMTP_SSL('smtp.gmail.com', port, context=context) as server:
     server.login(e_mail, password)
     server.sendmail(e_mail, receiver, message)
 ```
+
+## Alternative solution
+
+For an alternative, probably better, solution, check this youtube video <https://www.youtube.com/watch?v=Y9l2-1YTdlI>
