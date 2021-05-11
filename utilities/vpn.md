@@ -21,7 +21,9 @@ If you have **linux**, the program is hidden at this path:
 https://www.eawag.ch/repository/pa_gp_client/
 
 and you can find the instructions here.
-https://www.eawag.ch/repository/pa_gp_client/5.1.1/globalprotect-app-user-guide.pdf
+https://www.eawag.ch/repository/pa_gp_client/5.2.5/globalprotect-app-user-guide.pdf
+
+(If you are on Arch or Manjaro Linux you may need to install the Debian package manager `dpkg` first.) 
 
 ## Executing
 
