@@ -6,7 +6,8 @@
 
 - Grants finance: Sarah Kilic
 
-- refline tool for openings: Senta Schoedler?
+- refline tool for openings: Senta Schoedler, Jeannette Aggeler
+
 
 
 

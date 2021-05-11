@@ -15,8 +15,7 @@ You can find a template in this page.
 
 ## Getting the opening out
 
-Once the opening is written, send it to `recruiting@eawag.ch`.
-They will have a look at it, publish the job advertisement and put it on refline.
+Once the opening is written, send it to `recruiting@eawag.ch`, and Jeannette Aggeler. They will have a look at it, publish the job advertisement and put it on refline.
 
 
 
