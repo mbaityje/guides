@@ -17,7 +17,7 @@ If you are not at Eawag, you can still access the intranet by logging into https
 
 If you have **mac** or **windows**, you simply download the VPN program from vpn.eawag.ch, and follow the instructions.
 
-If you have **linux**, the program is hidden at this path:
+If you have **linux**, the program is hidden (wtf!) at this path:
 https://www.eawag.ch/repository/pa_gp_client/
 
 and you can find the instructions here.
