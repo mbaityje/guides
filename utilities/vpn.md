@@ -23,6 +23,15 @@ https://www.eawag.ch/repository/pa_gp_client/
 and you can find the instructions here.
 https://www.eawag.ch/repository/pa_gp_client/5.1.1/globalprotect-app-user-guide.pdf
 
+
+Further documentation: 
+
+https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-user-guide/globalprotect-app-for-linux/download-and-install-the-globalprotect-app-for-linux.html 
+
+https://docs.paloaltonetworks.com/globalprotect/5-1/globalprotect-app-user-guide/globalprotect-app-for-linux/use-the-globalprotect-app-for-linux.html
+
+
+
 ## Executing
 
 Usually, a small icon will appear on your main toolbar, and you will use it for the 2-factor authentication. Otherwise, if you want to run from terminal, you can use one of the following options:
