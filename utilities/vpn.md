@@ -23,4 +23,27 @@ https://www.eawag.ch/repository/pa_gp_client/
 and you can find the instructions here.
 https://www.eawag.ch/repository/pa_gp_client/5.1.1/globalprotect-app-user-guide.pdf
 
+## Executing
+
+Usually, a small icon will appear on your main toolbar, and you will use it for the 2-factor authentication. Otherwise, if you want to run from terminal, you can use one of the following options:
+
+
+##### Run from the globalprotect shell
+You first launch `globalprotect`, and from the shell you type `connect -portal vpn.eawag.ch`:
+```
+user@machine:~$ globalprotect
+Current GlobalProtect status: OnDemand mode.                           
+>> connect -portal vpn.eawag.ch
+Retrieving configuration...                                            
+vpn.eawag.ch - Enter login credentials
+username(baccimar):baccimar  
+Password:
+Discovering network...                                                 
+Enter Your Microsoft verification code:                                
+Connecting...                                                          
+Connected
+```
+
+##### Launch the GUI
+You type `globalprotect launch-ui` in your terminal, and the GUI opens, with the 2-factor authentication.
 
