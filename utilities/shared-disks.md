@@ -53,18 +53,6 @@ The process works and it is very convenient. However, as you noticed, there is a
 Auto mount samba share
 see [https://wiki.ubuntu.com/MountWindowsSharesPermanently](https://wiki.ubuntu.com/MountWindowsSharesPermanently).
 
-2) get user id with: sudo id **linux user name**
-2) add to "/etc/fstab" (in one line) and replace uid=XXX with your user id:
 
-                  //eaw-depts/siam$ /mnt/Siam cifs uid=1000,gid=1000,credentials=/home/scheidan/.smbcredentials,iocharset=utf8
-//eaw-various/Scratch-disk$ /mnt/scratch-disk cifs uid=1000,gid=1000,credentials=/home/scheidan/.smbcredentials,iocharset=utf8
-
-3) create the file "/home/scheidan/.smbcredentials" with:
-username=scheidan
-password=**eawagPW**
-domain=Eawag
-
-4) reload fstab with:
-sudo mount -a
 
 
